@@ -38,7 +38,10 @@ export default {
       },
       screens: {
         "wide": "1440px"
-      }
+      },
+      animation: {
+        'bounce-2s': 'bounce 5s infinite ',
+      },
     },
   },
   plugins: [],

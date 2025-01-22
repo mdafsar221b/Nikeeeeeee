@@ -2,13 +2,13 @@
 import {star} from '../assets/icons'
 const PopularProductCard = ({imgURL,name,price}) => {
   return (
-    <div className=" flex flex-1 flex-col w-full max-sm:w-full">
+    <div className=" flex flex-1 justify-center items-center  flex-col w-full max-sm:w-full ">
         <img 
         src={imgURL} 
         alt={name}
-        className="w-[282px] h-[282px]" 
+        className="w-[282px] h-[282px] hover:scale-103 transition ease-in-out delay-150 hover:-translate-y-1" 
         />
-        <div className="mt-8 flex justify-start gap-2.5">
+        <div className="mt-8 flex justify-start gap-2.5 ">
             <img src={star} 
             alt="rating"
             width={24}
